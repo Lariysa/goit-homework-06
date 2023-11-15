@@ -340,6 +340,7 @@ display: none;
     justify-content: center;
     align-items: center;
     gap: 32px;
+    padding-bottom: 96px;
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFFFFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -354,7 +355,6 @@ display: none;
    color: var(--NAVY-BLUE, #2E2F42);
    margin-bottom: 8px;
 }
-
 
 .social-list {
     display: flex;
@@ -383,6 +383,33 @@ margin-bottom: 8px;
     background-color: #4D5AE5;
     transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.experts-icon-svg{
+    flex-shrink: 0;  
+    margin: 12px; 
+}
+
+
+/* section Portfolio */
+
+
+.portfolio-menu {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px; 
+}
+
+.portfolio-title {
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 1.11;
+text-transform: capitalize;
+color: var(--NAVY-BLUE, #2E2F42);
+margin-bottom: 72px;
+}
+
 
 @media screen and (min-width: 768px) {
     .container { 

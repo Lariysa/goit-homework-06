@@ -385,7 +385,6 @@ body{
         align-items: flex-start;
         gap: 32px;
         flex-shrink: 0;
-        display: flex;
         border: 1px;
     }
 
