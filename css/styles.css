@@ -194,6 +194,7 @@ body{
     .menu-icon-mobile {
         display: flex;
         column-gap: 40px;
+        margin-bottom: 40px;
     }
     
     .list-icon-mobile {
@@ -400,53 +401,12 @@ margin-bottom: 8px;
 
 /* section Portfolio */
 
-@media screen and (min-width: 767px) {
-    .portfolio-menu {
-        flex-wrap: wrap;
-        column-gap: 48px;
-        row-gap: 48px; 
-        margin-bottom: 96px;
-    }
-    
-    .portfolio-title {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px; /* 111.111% */
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--NAVY-BLUE, #2E2F42);
-    margin-bottom: 72px;
-    }
-    
-    .portfolio-list {
-    display: flex;
-    width: 100%;
-    padding-bottom: 0px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    }
-    
-    .portfolio-tab {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2; /* 120% */
-    letter-spacing: 0.4px;
-    color: var(--NAVY-BLUE, #2E2F42);
-    }
-    
-    .portfolio-role {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.02em;
-    color: var(--SLATE, #434455);
-    }
-    
+@media screen and (min-width: 767px) { 
+   
+   
    
     
-       
+     
 }
 .overlay-text {
     display: none;
